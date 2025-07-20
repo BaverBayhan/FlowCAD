@@ -1,0 +1,9 @@
+C:\Users\Baver\Desktop\FlowCAD-sources\FlowCAD-sourcecode\BoyProfilUIAutomation\BoyProfilUIAutomation\bin\Debug\BoyProfilUIAutomation.exe.config
+C:\Users\Baver\Desktop\FlowCAD-sources\FlowCAD-sourcecode\BoyProfilUIAutomation\BoyProfilUIAutomation\bin\Debug\BoyProfilUIAutomation.exe
+C:\Users\Baver\Desktop\FlowCAD-sources\FlowCAD-sourcecode\BoyProfilUIAutomation\BoyProfilUIAutomation\bin\Debug\BoyProfilUIAutomation.pdb
+C:\Users\Baver\Desktop\FlowCAD-sources\FlowCAD-sourcecode\BoyProfilUIAutomation\BoyProfilUIAutomation\obj\Debug\BoyProfilUIAutomation.csproj.AssemblyReference.cache
+C:\Users\Baver\Desktop\FlowCAD-sources\FlowCAD-sourcecode\BoyProfilUIAutomation\BoyProfilUIAutomation\obj\Debug\BoyProfilUIAutomation.Properties.Resources.resources
+C:\Users\Baver\Desktop\FlowCAD-sources\FlowCAD-sourcecode\BoyProfilUIAutomation\BoyProfilUIAutomation\obj\Debug\BoyProfilUIAutomation.csproj.GenerateResource.cache
+C:\Users\Baver\Desktop\FlowCAD-sources\FlowCAD-sourcecode\BoyProfilUIAutomation\BoyProfilUIAutomation\obj\Debug\BoyProfilUIAutomation.csproj.CoreCompileInputs.cache
+C:\Users\Baver\Desktop\FlowCAD-sources\FlowCAD-sourcecode\BoyProfilUIAutomation\BoyProfilUIAutomation\obj\Debug\BoyProfilUIAutomation.exe
+C:\Users\Baver\Desktop\FlowCAD-sources\FlowCAD-sourcecode\BoyProfilUIAutomation\BoyProfilUIAutomation\obj\Debug\BoyProfilUIAutomation.pdb

@@ -1,0 +1,9 @@
+C:\Users\Baver\Desktop\FlowCAD-sources\FlowCAD-sourcecode\FlowCAD-core\FlowCAD-core\bin\Release\FlowCAD-core.dll
+C:\Users\Baver\Desktop\FlowCAD-sources\FlowCAD-sourcecode\FlowCAD-core\FlowCAD-core\bin\Release\FlowCAD-core.pdb
+C:\Users\Baver\Desktop\FlowCAD-sources\FlowCAD-sourcecode\FlowCAD-core\FlowCAD-core\obj\Release\FlowCAD-core.csproj.AssemblyReference.cache
+C:\Users\Baver\Desktop\FlowCAD-sources\FlowCAD-sourcecode\FlowCAD-core\FlowCAD-core\obj\Release\FlowCAD-core.csproj.CoreCompileInputs.cache
+C:\Users\Baver\Desktop\FlowCAD-sources\FlowCAD-sourcecode\FlowCAD-core\FlowCAD-core\obj\Release\FlowCAD-core.dll
+C:\Users\Baver\Desktop\FlowCAD-sources\FlowCAD-sourcecode\FlowCAD-core\FlowCAD-core\obj\Release\FlowCAD-core.pdb
+C:\Users\Baver\Desktop\FlowCAD-sources\FlowCAD-sourcecode\FlowCAD-core\FlowCAD-core\bin\Release\Newtonsoft.Json.dll
+C:\Users\Baver\Desktop\FlowCAD-sources\FlowCAD-sourcecode\FlowCAD-core\FlowCAD-core\bin\Release\Newtonsoft.Json.xml
+C:\Users\Baver\Desktop\FlowCAD-sources\FlowCAD-sourcecode\FlowCAD-core\FlowCAD-core\obj\Release\FlowCAD-.69E9DDDF.Up2Date

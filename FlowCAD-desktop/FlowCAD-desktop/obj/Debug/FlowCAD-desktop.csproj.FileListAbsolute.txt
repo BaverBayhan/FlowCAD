@@ -1,0 +1,11 @@
+C:\Users\Baver\Desktop\FlowCAD-sources\FlowCAD-sourcecode\FlowCAD-Desktop\FlowCAD-desktop\bin\Debug\FlowCAD-desktop.exe.config
+C:\Users\Baver\Desktop\FlowCAD-sources\FlowCAD-sourcecode\FlowCAD-Desktop\FlowCAD-desktop\bin\Debug\FlowCAD-desktop.exe
+C:\Users\Baver\Desktop\FlowCAD-sources\FlowCAD-sourcecode\FlowCAD-Desktop\FlowCAD-desktop\bin\Debug\FlowCAD-desktop.pdb
+C:\Users\Baver\Desktop\FlowCAD-sources\FlowCAD-sourcecode\FlowCAD-Desktop\FlowCAD-desktop\obj\Debug\FlowCAD-desktop.csproj.AssemblyReference.cache
+C:\Users\Baver\Desktop\FlowCAD-sources\FlowCAD-sourcecode\FlowCAD-Desktop\FlowCAD-desktop\obj\Debug\FlowCAD-desktop.csproj.ResolveComReference.cache
+C:\Users\Baver\Desktop\FlowCAD-sources\FlowCAD-sourcecode\FlowCAD-Desktop\FlowCAD-desktop\obj\Debug\FlowCAD_desktop.Properties.Resources.resources
+C:\Users\Baver\Desktop\FlowCAD-sources\FlowCAD-sourcecode\FlowCAD-Desktop\FlowCAD-desktop\obj\Debug\FlowCAD-desktop.csproj.GenerateResource.cache
+C:\Users\Baver\Desktop\FlowCAD-sources\FlowCAD-sourcecode\FlowCAD-Desktop\FlowCAD-desktop\obj\Debug\FlowCAD-desktop.csproj.CoreCompileInputs.cache
+C:\Users\Baver\Desktop\FlowCAD-sources\FlowCAD-sourcecode\FlowCAD-Desktop\FlowCAD-desktop\obj\Debug\FlowCAD-desktop.exe
+C:\Users\Baver\Desktop\FlowCAD-sources\FlowCAD-sourcecode\FlowCAD-Desktop\FlowCAD-desktop\obj\Debug\FlowCAD-desktop.pdb
+C:\Users\Baver\Desktop\FlowCAD-sources\FlowCAD-sourcecode\FlowCAD-Desktop\FlowCAD-desktop\obj\Debug\FlowCAD_desktop.MainForm.resources
