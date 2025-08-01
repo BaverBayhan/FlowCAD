@@ -9,3 +9,15 @@ C:\Users\Baver\Desktop\FlowCAD-sources\FlowCAD-sourcecode\FlowCAD-Desktop\FlowCA
 C:\Users\Baver\Desktop\FlowCAD-sources\FlowCAD-sourcecode\FlowCAD-Desktop\FlowCAD-desktop\obj\Release\FlowCAD-desktop.csproj.CoreCompileInputs.cache
 C:\Users\Baver\Desktop\FlowCAD-sources\FlowCAD-sourcecode\FlowCAD-Desktop\FlowCAD-desktop\obj\Release\FlowCAD-desktop.exe
 C:\Users\Baver\Desktop\FlowCAD-sources\FlowCAD-sourcecode\FlowCAD-Desktop\FlowCAD-desktop\obj\Release\FlowCAD-desktop.pdb
+C:\Users\Baver\Desktop\FlowCAD\FlowCAD-desktop\FlowCAD-desktop\bin\Release\FlowCAD-desktop.exe.config
+C:\Users\Baver\Desktop\FlowCAD\FlowCAD-desktop\FlowCAD-desktop\bin\Release\FlowCAD-desktop.exe
+C:\Users\Baver\Desktop\FlowCAD\FlowCAD-desktop\FlowCAD-desktop\bin\Release\FlowCAD-desktop.pdb
+C:\Users\Baver\Desktop\FlowCAD\FlowCAD-desktop\FlowCAD-desktop\obj\Release\FlowCAD-desktop.csproj.AssemblyReference.cache
+C:\Users\Baver\Desktop\FlowCAD\FlowCAD-desktop\FlowCAD-desktop\obj\Release\FlowCAD-desktop.exe.config
+C:\Users\Baver\Desktop\FlowCAD\FlowCAD-desktop\FlowCAD-desktop\obj\Release\FlowCAD-desktop.csproj.ResolveComReference.cache
+C:\Users\Baver\Desktop\FlowCAD\FlowCAD-desktop\FlowCAD-desktop\obj\Release\FlowCAD_desktop.MainForm.resources
+C:\Users\Baver\Desktop\FlowCAD\FlowCAD-desktop\FlowCAD-desktop\obj\Release\FlowCAD_desktop.Properties.Resources.resources
+C:\Users\Baver\Desktop\FlowCAD\FlowCAD-desktop\FlowCAD-desktop\obj\Release\FlowCAD-desktop.csproj.GenerateResource.cache
+C:\Users\Baver\Desktop\FlowCAD\FlowCAD-desktop\FlowCAD-desktop\obj\Release\FlowCAD-desktop.csproj.CoreCompileInputs.cache
+C:\Users\Baver\Desktop\FlowCAD\FlowCAD-desktop\FlowCAD-desktop\obj\Release\FlowCAD-desktop.exe
+C:\Users\Baver\Desktop\FlowCAD\FlowCAD-desktop\FlowCAD-desktop\obj\Release\FlowCAD-desktop.pdb

@@ -22,6 +22,15 @@ namespace FlowCAD_core
         }
 
 
+        [CommandMethod("resetMode")]
+        public void ResetMode()
+        {
+            Document doc = Application.DocumentManager.MdiActiveDocument;
+            Editor ed = doc.Editor;
+            mode = new ModeMB();
+            ed.WriteMessage("\nMode reset to MB.");
+        }
+
         [CommandMethod("changeMode")]
         public void ChangeMode()
         {
@@ -144,6 +153,11 @@ namespace FlowCAD_core
                     string latestKnoId = "";
                     PromptPointResult pointResult = ed.GetPoint("\nClick to create a 'muayene bacasi':");
                     if (pointResult.Status != PromptStatus.OK) return;
+
+                    // Convert UCS point to WCS
+                    Point3d ucsPoint = pointResult.Value;
+                    Point3d wcsPoint = ucsPoint.TransformBy(ed.CurrentUserCoordinateSystem);
+
                     Circle circle = modeMB.createCircle(pointResult.Value);
                     using (Transaction tr = db.TransactionManager.StartTransaction())
                     {
@@ -280,9 +294,6 @@ namespace FlowCAD_core
                     Utils.ZoomToCircle(izahatCemberi, 7);
                     doc.Editor.Regen();
 
-                    PromptPointResult textPosResult = ed.GetPoint("\nClick above the circle to place text:");
-                    if (textPosResult.Status != PromptStatus.OK) continue;
-
                     PromptStringOptions stringOptions = new PromptStringOptions("\nEnter text for Kapak Kot:");
                     stringOptions.AllowSpaces = true;
                     PromptResult textResult = ed.GetString(stringOptions);
@@ -299,12 +310,12 @@ namespace FlowCAD_core
                         if (double.TryParse(textResult.StringResult, out double value))
                         {
                             string formattedValue = value.ToString("F2");
-                            kapakKotText = Utils.CreateTextObject(textPosResult.Value, $"({formattedValue})");
+                            kapakKotText = Utils.CreateTextObject(new Point3d(izahatCemberi.Center.X, izahatCemberi.Center.Y + izahatCemberi.Radius*2, 0), $"({formattedValue})");
                         }
                         else
                         {
                             // Fallback: use the original input if parsing fails
-                            kapakKotText = Utils.CreateTextObject(textPosResult.Value, $"({textResult.StringResult})");
+                            kapakKotText = Utils.CreateTextObject(new Point3d(izahatCemberi.Center.X, izahatCemberi.Center.Y + izahatCemberi.Radius*2, 0), $"({textResult.StringResult})");
                         }
                         btr.AppendEntity(kapakKotText);
                         tr.AddNewlyCreatedDBObject(kapakKotText, true);
@@ -529,20 +540,26 @@ namespace FlowCAD_core
                         Entity entity = tr.GetObject(objId, OpenMode.ForRead) as Entity;
                         if (entity is Circle circle)
                         {
-                            Xrecord xRecord = (Xrecord)tr.GetObject(nod.GetAt(circle.Handle.ToString()), OpenMode.ForRead);
-                            TypedValue[] values = xRecord.Data.AsArray();
-
-                            for (int i = 0; i < values.Length - 1; i++)
+                            string handleKey = circle.Handle.ToString();
+                            if (nod.Contains(handleKey))
                             {
-                                if (values[i].Value.ToString() == "class" && values[i + 1].Value.ToString() == "muayene_bacası")
+                                Xrecord xRecord = (Xrecord)tr.GetObject(nod.GetAt(handleKey), OpenMode.ForRead);
+                                if(xRecord == null) continue;
+                                TypedValue[] values = xRecord.Data.AsArray();
+
+                                for (int i = 0; i < values.Length - 1; i++)
                                 {
-                                    if(!hatIds.Contains(values[i+5].Value.ToString())) 
+                                    if (values[i].Value.ToString() == "class" && values[i + 1].Value.ToString() == "muayene_bacası")
                                     {
-                                        hatIds.Add(values[i+5].Value.ToString());
+                                        if (!hatIds.Contains(values[i+5].Value.ToString()))
+                                        {
+                                            hatIds.Add(values[i+5].Value.ToString());
+                                        }
+                                        muayeneBacasiList.Add(circle);
                                     }
-                                    muayeneBacasiList.Add(circle);
                                 }
                             }
+
                         }
                     }
 
@@ -606,15 +623,12 @@ namespace FlowCAD_core
                     Utils.ZoomToCircle(baslangicBacasi, 20);
                     doc.Editor.Regen();
 
-                    PromptPointResult textPosResult = ed.GetPoint("\nClick near the circle to place text:");
-                    if (textPosResult.Status != PromptStatus.OK) continue;
-
                     PromptStringOptions stringOptions = new PromptStringOptions("\nEnter text for Akar Kot:");
                     stringOptions.AllowSpaces = true;
                     PromptResult textResult = ed.GetString(stringOptions);
                     if (textResult.Status != PromptStatus.OK) continue;
 
-                    DBText akarkotText = ModeAKARKOT.createAkarkotTextObject(textPosResult.Value, textResult.StringResult);
+                    DBText akarkotText = ModeAKARKOT.createAkarkotTextObject(new Point3d(baslangicBacasi.Center.X, baslangicBacasi.Center.Y - baslangicBacasi.Radius * 2, 0), textResult.StringResult);
                     using (Transaction tr = db.TransactionManager.StartTransaction())
                     {
                         BlockTable bt = (BlockTable)tr.GetObject(db.BlockTableId, OpenMode.ForRead);
@@ -701,9 +715,49 @@ namespace FlowCAD_core
                     {
                         List<Circle> circlesExcludedCurrentHat = circles.Where(circle => !circlesInHat.Contains(circle)).ToList();
                         if (circlesExcludedCurrentHat.Count == 0) break;
+
                         circle1 = circlesInHat[i];
                         circle2 = ModeDRAW.findNearestCircleToSourceCircle(circlesInHat[i], circlesExcludedCurrentHat);
+
                         if (circle2 == null) break;
+
+                        // Prompt user for confirmation
+                        Xrecord xRecordOfCircle1 = Utils.fetchXrecordOfObject(circle1.ObjectId);
+                        TypedValue[] valuesOfCircle1 = xRecordOfCircle1.Data.AsArray();
+
+                        Xrecord xRecordOfCircle2 = Utils.fetchXrecordOfObject(circle2.ObjectId);
+                        TypedValue[] valuesOfCircle2 = xRecordOfCircle2.Data.AsArray();
+
+                        PromptKeywordOptions confirmOptions = new PromptKeywordOptions($"\nThe circle NO: {valuesOfCircle2[7].Value.ToString()} will be selected as the source circle for the last 'muayene bacası'." +
+                            $"{valuesOfCircle1[7].Value.ToString()}  Do you want to proceed?");
+                        confirmOptions.Keywords.Add("OK");
+                        confirmOptions.Keywords.Add("Cancel");
+                        confirmOptions.AllowNone = false;
+
+                        PromptResult confirmResult = ed.GetKeywords(confirmOptions);
+
+                        if (confirmResult.Status != PromptStatus.OK || confirmResult.StringResult == "Cancel")
+                        {
+                            // Request user to select a different circle
+                            PromptEntityOptions entityOptions = new PromptEntityOptions("\nPlease select a circle to redirect:");
+                            entityOptions.SetRejectMessage("\nOnly circles are allowed.");
+                            entityOptions.AddAllowedClass(typeof(Circle), true);
+
+                            PromptEntityResult entityResult = ed.GetEntity(entityOptions);
+
+                            if (entityResult.Status == PromptStatus.OK)
+                            {
+                                using (Transaction tr = db.TransactionManager.StartTransaction())
+                                {
+                                    circle2 = tr.GetObject(entityResult.ObjectId, OpenMode.ForRead) as Circle;
+                                    tr.Commit();
+                                }
+                            }
+                            else
+                            {
+                                break; // Exit if no valid circle is selected
+                            }
+                        }
                     }
                     else
                     {
@@ -960,6 +1014,39 @@ namespace FlowCAD_core
             ed.WriteMessage("\nMain hat defined successfully.");
         }
 
+
+        [CommandMethod("ResetZCoordinate")]
+        public void ResetZCoordinate()
+        {
+            Document doc = Application.DocumentManager.MdiActiveDocument;
+            Database db = doc.Database;
+            Editor ed = doc.Editor;
+
+            List<ObjectId> circleIds = GetAllCirclesOnLayer(db, "K_HAT");
+
+            using (Transaction tr = db.TransactionManager.StartTransaction())
+            {
+                foreach (ObjectId circleId in circleIds)
+                {
+                    Circle circle = tr.GetObject(circleId, OpenMode.ForWrite) as Circle;
+                    if (circle != null)
+                    {
+                        double z = circle.Center.Z;
+                        if (Math.Abs(z) > Tolerance.Global.EqualPoint)
+                        {
+                            Matrix3d translation = Matrix3d.Displacement(new Vector3d(0, 0, -z));
+                            circle.TransformBy(translation);
+                        }
+                    }
+                }
+                tr.Commit();
+            }
+
+            ed.WriteMessage($"\nReset Z of {circleIds.Count} circles on layer K_HAT.");
+        }
+
+
+
         private static List<Circle> RetrieveHatWithCircles()
         {
             Document doc = Application.DocumentManager.MdiActiveDocument;
@@ -1109,6 +1196,29 @@ namespace FlowCAD_core
             }
         }
 
+        private static List<ObjectId> GetAllCirclesOnLayer(Database db, string layerName)
+        {
+            List<ObjectId> circleIds = new List<ObjectId>();
+
+            using (Transaction tr = db.TransactionManager.StartTransaction())
+            {
+                BlockTable bt = tr.GetObject(db.BlockTableId, OpenMode.ForRead) as BlockTable;
+                BlockTableRecord btr = tr.GetObject(bt[BlockTableRecord.ModelSpace], OpenMode.ForRead) as BlockTableRecord;
+
+                foreach (ObjectId objId in btr)
+                {
+                    Entity ent = tr.GetObject(objId, OpenMode.ForRead) as Entity;
+                    if (ent is Circle circle && ent.Layer == layerName)
+                    {
+                        circleIds.Add(objId);
+                    }
+                }
+
+                tr.Commit();
+            }
+
+            return circleIds;
+        }
 
     }
 }

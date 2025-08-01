@@ -1,25 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\BoyProfilUIAutomation\\",
+  "WorkspaceRootPath": "C:\\Users\\Baver\\Desktop\\FlowCAD\\BoyProfilUIAutomation\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7B083E3A-28D9-4094-80FD-E45A5A5AD8DC}|BoyProfilUIAutomation\\BoyProfilUIAutomation.csproj|c:\\users\\baver\\desktop\\flowcad-sources\\flowcad-sourcecode\\boyprofiluiautomation\\boyprofiluiautomation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7B083E3A-28D9-4094-80FD-E45A5A5AD8DC}|BoyProfilUIAutomation\\BoyProfilUIAutomation.csproj|c:\\users\\baver\\desktop\\flowcad\\boyprofiluiautomation\\boyprofiluiautomation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B083E3A-28D9-4094-80FD-E45A5A5AD8DC}|BoyProfilUIAutomation\\BoyProfilUIAutomation.csproj|solutionrelative:boyprofiluiautomation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B083E3A-28D9-4094-80FD-E45A5A5AD8DC}|BoyProfilUIAutomation\\BoyProfilUIAutomation.csproj|C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\BoyProfilUIAutomation\\boyprofiluiautomation\\boyprofilcirclejsonmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7B083E3A-28D9-4094-80FD-E45A5A5AD8DC}|BoyProfilUIAutomation\\BoyProfilUIAutomation.csproj|C:\\Users\\Baver\\Desktop\\FlowCAD\\BoyProfilUIAutomation\\boyprofiluiautomation\\boyprofilcirclejsonmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B083E3A-28D9-4094-80FD-E45A5A5AD8DC}|BoyProfilUIAutomation\\BoyProfilUIAutomation.csproj|solutionrelative:boyprofiluiautomation\\boyprofilcirclejsonmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B083E3A-28D9-4094-80FD-E45A5A5AD8DC}|BoyProfilUIAutomation\\BoyProfilUIAutomation.csproj|C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\BoyProfilUIAutomation\\boyprofiluiautomation\\mouseclicklistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7B083E3A-28D9-4094-80FD-E45A5A5AD8DC}|BoyProfilUIAutomation\\BoyProfilUIAutomation.csproj|C:\\Users\\Baver\\Desktop\\FlowCAD\\BoyProfilUIAutomation\\boyprofiluiautomation\\mouseclicklistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B083E3A-28D9-4094-80FD-E45A5A5AD8DC}|BoyProfilUIAutomation\\BoyProfilUIAutomation.csproj|solutionrelative:boyprofiluiautomation\\mouseclicklistener.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B083E3A-28D9-4094-80FD-E45A5A5AD8DC}|BoyProfilUIAutomation\\BoyProfilUIAutomation.csproj|C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\BoyProfilUIAutomation\\boyprofiluiautomation\\boyprofilcircle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7B083E3A-28D9-4094-80FD-E45A5A5AD8DC}|BoyProfilUIAutomation\\BoyProfilUIAutomation.csproj|C:\\Users\\Baver\\Desktop\\FlowCAD\\BoyProfilUIAutomation\\boyprofiluiautomation\\boyprofilcircle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B083E3A-28D9-4094-80FD-E45A5A5AD8DC}|BoyProfilUIAutomation\\BoyProfilUIAutomation.csproj|solutionrelative:boyprofiluiautomation\\boyprofilcircle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B083E3A-28D9-4094-80FD-E45A5A5AD8DC}|BoyProfilUIAutomation\\BoyProfilUIAutomation.csproj|C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\BoyProfilUIAutomation\\boyprofiluiautomation\\operationtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7B083E3A-28D9-4094-80FD-E45A5A5AD8DC}|BoyProfilUIAutomation\\BoyProfilUIAutomation.csproj|C:\\Users\\Baver\\Desktop\\FlowCAD\\BoyProfilUIAutomation\\boyprofiluiautomation\\operationtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B083E3A-28D9-4094-80FD-E45A5A5AD8DC}|BoyProfilUIAutomation\\BoyProfilUIAutomation.csproj|solutionrelative:boyprofiluiautomation\\operationtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -44,9 +44,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "BoyProfilCircleJsonMapper.cs",
-              "DocumentMoniker": "C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\BoyProfilUIAutomation\\BoyProfilUIAutomation\\BoyProfilCircleJsonMapper.cs",
+              "DocumentMoniker": "C:\\Users\\Baver\\Desktop\\FlowCAD\\BoyProfilUIAutomation\\BoyProfilUIAutomation\\BoyProfilCircleJsonMapper.cs",
               "RelativeDocumentMoniker": "BoyProfilUIAutomation\\BoyProfilCircleJsonMapper.cs",
-              "ToolTip": "C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\BoyProfilUIAutomation\\BoyProfilUIAutomation\\BoyProfilCircleJsonMapper.cs",
+              "ToolTip": "C:\\Users\\Baver\\Desktop\\FlowCAD\\BoyProfilUIAutomation\\BoyProfilUIAutomation\\BoyProfilCircleJsonMapper.cs",
               "RelativeToolTip": "BoyProfilUIAutomation\\BoyProfilCircleJsonMapper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwCMAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -56,9 +56,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "BoyProfilCircle.cs",
-              "DocumentMoniker": "C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\BoyProfilUIAutomation\\BoyProfilUIAutomation\\BoyProfilCircle.cs",
+              "DocumentMoniker": "C:\\Users\\Baver\\Desktop\\FlowCAD\\BoyProfilUIAutomation\\BoyProfilUIAutomation\\BoyProfilCircle.cs",
               "RelativeDocumentMoniker": "BoyProfilUIAutomation\\BoyProfilCircle.cs",
-              "ToolTip": "C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\BoyProfilUIAutomation\\BoyProfilUIAutomation\\BoyProfilCircle.cs",
+              "ToolTip": "C:\\Users\\Baver\\Desktop\\FlowCAD\\BoyProfilUIAutomation\\BoyProfilUIAutomation\\BoyProfilCircle.cs",
               "RelativeToolTip": "BoyProfilUIAutomation\\BoyProfilCircle.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAswAYAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -68,9 +68,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "OperationType.cs",
-              "DocumentMoniker": "C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\BoyProfilUIAutomation\\BoyProfilUIAutomation\\OperationType.cs",
+              "DocumentMoniker": "C:\\Users\\Baver\\Desktop\\FlowCAD\\BoyProfilUIAutomation\\BoyProfilUIAutomation\\OperationType.cs",
               "RelativeDocumentMoniker": "BoyProfilUIAutomation\\OperationType.cs",
-              "ToolTip": "C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\BoyProfilUIAutomation\\BoyProfilUIAutomation\\OperationType.cs",
+              "ToolTip": "C:\\Users\\Baver\\Desktop\\FlowCAD\\BoyProfilUIAutomation\\BoyProfilUIAutomation\\OperationType.cs",
               "RelativeToolTip": "BoyProfilUIAutomation\\OperationType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwsAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -80,9 +80,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "MouseClickListener.cs",
-              "DocumentMoniker": "C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\BoyProfilUIAutomation\\BoyProfilUIAutomation\\MouseClickListener.cs",
+              "DocumentMoniker": "C:\\Users\\Baver\\Desktop\\FlowCAD\\BoyProfilUIAutomation\\BoyProfilUIAutomation\\MouseClickListener.cs",
               "RelativeDocumentMoniker": "BoyProfilUIAutomation\\MouseClickListener.cs",
-              "ToolTip": "C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\BoyProfilUIAutomation\\BoyProfilUIAutomation\\MouseClickListener.cs",
+              "ToolTip": "C:\\Users\\Baver\\Desktop\\FlowCAD\\BoyProfilUIAutomation\\BoyProfilUIAutomation\\MouseClickListener.cs",
               "RelativeToolTip": "BoyProfilUIAutomation\\MouseClickListener.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -92,11 +92,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\BoyProfilUIAutomation\\BoyProfilUIAutomation\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Baver\\Desktop\\FlowCAD\\BoyProfilUIAutomation\\BoyProfilUIAutomation\\Program.cs",
               "RelativeDocumentMoniker": "BoyProfilUIAutomation\\Program.cs",
-              "ToolTip": "C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\BoyProfilUIAutomation\\BoyProfilUIAutomation\\Program.cs",
+              "ToolTip": "C:\\Users\\Baver\\Desktop\\FlowCAD\\BoyProfilUIAutomation\\BoyProfilUIAutomation\\Program.cs",
               "RelativeToolTip": "BoyProfilUIAutomation\\Program.cs",
-              "ViewState": "AgIAAG4AAAAAAAAAAAAywB0BAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAG4AAAAAAAAAAAA/wHYAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-02T12:29:31.635Z",
               "EditorCaption": ""

@@ -29,16 +29,27 @@ namespace FlowCAD_core
                     Entity entity = tr.GetObject(objId, OpenMode.ForRead) as Entity;
                     if (entity is Circle circle)
                     {
-                        Xrecord xRecord = (Xrecord)tr.GetObject(nod.GetAt(circle.Handle.ToString()), OpenMode.ForRead);
-                        TypedValue[] values = xRecord.Data.AsArray();
-
-                        for (int i = 0; i < values.Length - 1; i++)
+                        string handleKey = circle.Handle.ToString();
+                        if (nod.Contains(handleKey))
                         {
-                            if ((values[i].Value.ToString() == "class" && values[i + 1].Value.ToString() == "mb_kky") && values[i+7].Value.ToString() == "-1")
+                            Xrecord xRecord = (Xrecord)tr.GetObject(nod.GetAt(handleKey), OpenMode.ForRead);
+
+                            if (xRecord != null)
                             {
-                                izahatCemberiList.Add(circle);
+                                TypedValue[] values = xRecord.Data.AsArray();
+
+                                for (int i = 0; i < values.Length - 1; i++)
+                                {
+                                    if ((values[i].Value.ToString() == "class" && values[i + 1].Value.ToString() == "mb_kky")
+                                        && values[i + 7].Value.ToString() == "-1")
+                                    {
+                                        izahatCemberiList.Add(circle);
+                                        break; // Found matching Xrecord, add circle once
+                                    }
+                                }
                             }
                         }
+                        
                     }
                 }
                 tr.Commit(); // End first transaction

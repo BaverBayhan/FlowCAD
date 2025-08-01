@@ -12,7 +12,7 @@ namespace FlowCAD_core
             Database db = doc.Database;
             if (currentMode is ModeMB)
             {
-                if (nextMode is ModeKKY)
+                if (nextMode is ModeKKY || nextMode is ModeDRAW)
                 {
                     return true;
                 }

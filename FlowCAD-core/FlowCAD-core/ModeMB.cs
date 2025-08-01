@@ -162,6 +162,15 @@ namespace FlowCAD_core
                         lt.Add(ltr);
                         tr.AddNewlyCreatedDBObject(ltr, true);
                     }
+                    else
+                    {
+                        // Force visibility and unlock if it exists
+                        LayerTableRecord ltr = (LayerTableRecord)tr.GetObject(lt["K_HAT"], OpenMode.ForWrite);
+                        ltr.IsOff = false;
+                        ltr.IsFrozen = false;
+                        ltr.IsLocked = false;
+                        ltr.Color = Color.FromColorIndex(ColorMethod.ByAci, 2); // ensure color is visible
+                    }
 
                     tr.Commit();
                 }

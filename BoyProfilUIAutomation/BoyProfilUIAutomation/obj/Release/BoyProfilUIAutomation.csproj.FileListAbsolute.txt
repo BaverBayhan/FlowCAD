@@ -10,3 +10,16 @@ C:\Users\Baver\Desktop\FlowCAD-sources\FlowCAD-sourcecode\BoyProfilUIAutomation\
 C:\Users\Baver\Desktop\FlowCAD-sources\FlowCAD-sourcecode\BoyProfilUIAutomation\BoyProfilUIAutomation\obj\Release\BoyProfi.934CD23E.Up2Date
 C:\Users\Baver\Desktop\FlowCAD-sources\FlowCAD-sourcecode\BoyProfilUIAutomation\BoyProfilUIAutomation\obj\Release\BoyProfilUIAutomation.exe
 C:\Users\Baver\Desktop\FlowCAD-sources\FlowCAD-sourcecode\BoyProfilUIAutomation\BoyProfilUIAutomation\obj\Release\BoyProfilUIAutomation.pdb
+C:\Users\Baver\Desktop\FlowCAD\BoyProfilUIAutomation\BoyProfilUIAutomation\bin\Release\BoyProfilUIAutomation.exe.config
+C:\Users\Baver\Desktop\FlowCAD\BoyProfilUIAutomation\BoyProfilUIAutomation\bin\Release\BoyProfilUIAutomation.exe
+C:\Users\Baver\Desktop\FlowCAD\BoyProfilUIAutomation\BoyProfilUIAutomation\bin\Release\BoyProfilUIAutomation.pdb
+C:\Users\Baver\Desktop\FlowCAD\BoyProfilUIAutomation\BoyProfilUIAutomation\bin\Release\Newtonsoft.Json.dll
+C:\Users\Baver\Desktop\FlowCAD\BoyProfilUIAutomation\BoyProfilUIAutomation\bin\Release\Newtonsoft.Json.xml
+C:\Users\Baver\Desktop\FlowCAD\BoyProfilUIAutomation\BoyProfilUIAutomation\obj\Release\BoyProfilUIAutomation.csproj.AssemblyReference.cache
+C:\Users\Baver\Desktop\FlowCAD\BoyProfilUIAutomation\BoyProfilUIAutomation\obj\Release\BoyProfilUIAutomation.exe.config
+C:\Users\Baver\Desktop\FlowCAD\BoyProfilUIAutomation\BoyProfilUIAutomation\obj\Release\BoyProfilUIAutomation.Properties.Resources.resources
+C:\Users\Baver\Desktop\FlowCAD\BoyProfilUIAutomation\BoyProfilUIAutomation\obj\Release\BoyProfilUIAutomation.csproj.GenerateResource.cache
+C:\Users\Baver\Desktop\FlowCAD\BoyProfilUIAutomation\BoyProfilUIAutomation\obj\Release\BoyProfilUIAutomation.csproj.CoreCompileInputs.cache
+C:\Users\Baver\Desktop\FlowCAD\BoyProfilUIAutomation\BoyProfilUIAutomation\obj\Release\BoyProfi.934CD23E.Up2Date
+C:\Users\Baver\Desktop\FlowCAD\BoyProfilUIAutomation\BoyProfilUIAutomation\obj\Release\BoyProfilUIAutomation.exe
+C:\Users\Baver\Desktop\FlowCAD\BoyProfilUIAutomation\BoyProfilUIAutomation\obj\Release\BoyProfilUIAutomation.pdb

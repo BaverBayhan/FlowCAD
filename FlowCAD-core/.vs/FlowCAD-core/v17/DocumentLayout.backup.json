@@ -1,57 +1,57 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\FlowCAD-core\\",
+  "WorkspaceRootPath": "C:\\Users\\Baver\\Desktop\\FlowCAD\\FlowCAD-core\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\FlowCAD-core\\flowcad-core\\moderevert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|solutionrelative:flowcad-core\\moderevert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\FlowCAD-core\\flowcad-core\\commands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|c:\\users\\baver\\desktop\\flowcad\\flowcad-core\\flowcad-core\\commands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|solutionrelative:flowcad-core\\commands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\FlowCAD-core\\flowcad-core\\modecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|solutionrelative:flowcad-core\\modecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\FlowCAD-core\\flowcad-core\\boyprofiluiautomation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|solutionrelative:flowcad-core\\boyprofiluiautomation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\FlowCAD-core\\flowcad-core\\modemb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|C:\\Users\\Baver\\Desktop\\FlowCAD\\FlowCAD-core\\flowcad-core\\modemb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|solutionrelative:flowcad-core\\modemb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\FlowCAD-core\\flowcad-core\\modedraw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|C:\\Users\\Baver\\Desktop\\FlowCAD\\FlowCAD-core\\flowcad-core\\modedraw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|solutionrelative:flowcad-core\\modedraw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\FlowCAD-core\\flowcad-core\\modecalculate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|solutionrelative:flowcad-core\\modecalculate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\FlowCAD-core\\flowcad-core\\modeakarkot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|solutionrelative:flowcad-core\\modeakarkot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\FlowCAD-core\\flowcad-core\\boyprofilcircle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|solutionrelative:flowcad-core\\boyprofilcircle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\FlowCAD-core\\flowcad-core\\modekky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|solutionrelative:flowcad-core\\modekky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\FlowCAD-core\\flowcad-core\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|solutionrelative:flowcad-core\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\FlowCAD-core\\flowcad-core\\mode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|C:\\Users\\Baver\\Desktop\\FlowCAD\\FlowCAD-core\\flowcad-core\\mode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|solutionrelative:flowcad-core\\mode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\FlowCAD-core\\flowcad-core\\modefmkna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|C:\\Users\\Baver\\Desktop\\FlowCAD\\FlowCAD-core\\flowcad-core\\modecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|solutionrelative:flowcad-core\\modecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|C:\\Users\\Baver\\Desktop\\FlowCAD\\FlowCAD-core\\flowcad-core\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|solutionrelative:flowcad-core\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|C:\\Users\\Baver\\Desktop\\FlowCAD\\FlowCAD-core\\flowcad-core\\moderevert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|solutionrelative:flowcad-core\\moderevert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|C:\\Users\\Baver\\Desktop\\FlowCAD\\FlowCAD-core\\flowcad-core\\boyprofiluiautomation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|solutionrelative:flowcad-core\\boyprofiluiautomation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|C:\\Users\\Baver\\Desktop\\FlowCAD\\FlowCAD-core\\flowcad-core\\modekky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|solutionrelative:flowcad-core\\modekky.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|C:\\Users\\Baver\\Desktop\\FlowCAD\\FlowCAD-core\\flowcad-core\\boyprofilcircle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|solutionrelative:flowcad-core\\boyprofilcircle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|C:\\Users\\Baver\\Desktop\\FlowCAD\\FlowCAD-core\\flowcad-core\\modecalculate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|solutionrelative:flowcad-core\\modecalculate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|C:\\Users\\Baver\\Desktop\\FlowCAD\\FlowCAD-core\\flowcad-core\\modeakarkot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|solutionrelative:flowcad-core\\modeakarkot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|C:\\Users\\Baver\\Desktop\\FlowCAD\\FlowCAD-core\\flowcad-core\\modefmkna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7B5E139-5B2A-47D1-A493-3C43ADD6EF49}|FlowCAD-core\\FlowCAD-core.csproj|solutionrelative:flowcad-core\\modefmkna.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -62,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,24 +74,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "ModeREVERT.cs",
-              "DocumentMoniker": "C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\FlowCAD-core\\FlowCAD-core\\ModeREVERT.cs",
+              "DocumentMoniker": "C:\\Users\\Baver\\Desktop\\FlowCAD\\FlowCAD-core\\FlowCAD-core\\ModeREVERT.cs",
               "RelativeDocumentMoniker": "FlowCAD-core\\ModeREVERT.cs",
-              "ToolTip": "C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\FlowCAD-core\\FlowCAD-core\\ModeREVERT.cs",
+              "ToolTip": "C:\\Users\\Baver\\Desktop\\FlowCAD\\FlowCAD-core\\FlowCAD-core\\ModeREVERT.cs",
               "RelativeToolTip": "FlowCAD-core\\ModeREVERT.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAHsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T11:56:31.662Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-06T11:56:31.662Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "BoyProfilCircle.cs",
-              "DocumentMoniker": "C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\FlowCAD-core\\FlowCAD-core\\BoyProfilCircle.cs",
+              "DocumentMoniker": "C:\\Users\\Baver\\Desktop\\FlowCAD\\FlowCAD-core\\FlowCAD-core\\BoyProfilCircle.cs",
               "RelativeDocumentMoniker": "FlowCAD-core\\BoyProfilCircle.cs",
-              "ToolTip": "C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\FlowCAD-core\\FlowCAD-core\\BoyProfilCircle.cs",
+              "ToolTip": "C:\\Users\\Baver\\Desktop\\FlowCAD\\FlowCAD-core\\FlowCAD-core\\BoyProfilCircle.cs",
               "RelativeToolTip": "FlowCAD-core\\BoyProfilCircle.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -99,35 +98,36 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "BoyProfilUiAutomation.cs",
-              "DocumentMoniker": "C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\FlowCAD-core\\FlowCAD-core\\BoyProfilUiAutomation.cs",
+              "DocumentMoniker": "C:\\Users\\Baver\\Desktop\\FlowCAD\\FlowCAD-core\\FlowCAD-core\\BoyProfilUiAutomation.cs",
               "RelativeDocumentMoniker": "FlowCAD-core\\BoyProfilUiAutomation.cs",
-              "ToolTip": "C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\FlowCAD-core\\FlowCAD-core\\BoyProfilUiAutomation.cs",
+              "ToolTip": "C:\\Users\\Baver\\Desktop\\FlowCAD\\FlowCAD-core\\FlowCAD-core\\BoyProfilUiAutomation.cs",
               "RelativeToolTip": "FlowCAD-core\\BoyProfilUiAutomation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAN4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAtwLkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-29T20:39:59.422Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Commands.cs",
-              "DocumentMoniker": "C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\FlowCAD-core\\FlowCAD-core\\Commands.cs",
+              "DocumentMoniker": "C:\\Users\\Baver\\Desktop\\FlowCAD\\FlowCAD-core\\FlowCAD-core\\Commands.cs",
               "RelativeDocumentMoniker": "FlowCAD-core\\Commands.cs",
-              "ToolTip": "C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\FlowCAD-core\\FlowCAD-core\\Commands.cs",
+              "ToolTip": "C:\\Users\\Baver\\Desktop\\FlowCAD\\FlowCAD-core\\FlowCAD-core\\Commands.cs",
               "RelativeToolTip": "FlowCAD-core\\Commands.cs",
-              "ViewState": "AgIAANsDAAAAAAAAAIAwwBEEAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAMsCAAAAAAAAAAAAwNsCAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T08:14:55.174Z"
+              "WhenOpened": "2025-02-06T08:14:55.174Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "ModeAKARKOT.cs",
-              "DocumentMoniker": "C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\FlowCAD-core\\FlowCAD-core\\ModeAKARKOT.cs",
+              "DocumentMoniker": "C:\\Users\\Baver\\Desktop\\FlowCAD\\FlowCAD-core\\FlowCAD-core\\ModeAKARKOT.cs",
               "RelativeDocumentMoniker": "FlowCAD-core\\ModeAKARKOT.cs",
-              "ToolTip": "C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\FlowCAD-core\\FlowCAD-core\\ModeAKARKOT.cs",
+              "ToolTip": "C:\\Users\\Baver\\Desktop\\FlowCAD\\FlowCAD-core\\FlowCAD-core\\ModeAKARKOT.cs",
               "RelativeToolTip": "FlowCAD-core\\ModeAKARKOT.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAywCIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -135,11 +135,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "ModeCALCULATE.cs",
-              "DocumentMoniker": "C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\FlowCAD-core\\FlowCAD-core\\ModeCALCULATE.cs",
+              "DocumentMoniker": "C:\\Users\\Baver\\Desktop\\FlowCAD\\FlowCAD-core\\FlowCAD-core\\ModeCALCULATE.cs",
               "RelativeDocumentMoniker": "FlowCAD-core\\ModeCALCULATE.cs",
-              "ToolTip": "C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\FlowCAD-core\\FlowCAD-core\\ModeCALCULATE.cs",
+              "ToolTip": "C:\\Users\\Baver\\Desktop\\FlowCAD\\FlowCAD-core\\FlowCAD-core\\ModeCALCULATE.cs",
               "RelativeToolTip": "FlowCAD-core\\ModeCALCULATE.cs",
               "ViewState": "AgIAAOgAAAAAAAAAAIAwwAYBAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -147,25 +147,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "ModeDRAW.cs",
-              "DocumentMoniker": "C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\FlowCAD-core\\FlowCAD-core\\ModeDRAW.cs",
+              "DocumentMoniker": "C:\\Users\\Baver\\Desktop\\FlowCAD\\FlowCAD-core\\FlowCAD-core\\ModeDRAW.cs",
               "RelativeDocumentMoniker": "FlowCAD-core\\ModeDRAW.cs",
-              "ToolTip": "C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\FlowCAD-core\\FlowCAD-core\\ModeDRAW.cs",
+              "ToolTip": "C:\\Users\\Baver\\Desktop\\FlowCAD\\FlowCAD-core\\FlowCAD-core\\ModeDRAW.cs",
               "RelativeToolTip": "FlowCAD-core\\ModeDRAW.cs",
-              "ViewState": "AgIAAPUBAAAAAAAAAIBAwHQCAACVAAAAAAAAAA==",
+              "ViewState": "AgIAAE0BAAAAAAAAAAAowEcBAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T11:05:24.477Z"
+              "WhenOpened": "2025-02-06T11:05:24.477Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ModeController.cs",
-              "DocumentMoniker": "C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\FlowCAD-core\\FlowCAD-core\\ModeController.cs",
+              "DocumentMoniker": "C:\\Users\\Baver\\Desktop\\FlowCAD\\FlowCAD-core\\FlowCAD-core\\ModeController.cs",
               "RelativeDocumentMoniker": "FlowCAD-core\\ModeController.cs",
-              "ToolTip": "C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\FlowCAD-core\\FlowCAD-core\\ModeController.cs",
+              "ToolTip": "C:\\Users\\Baver\\Desktop\\FlowCAD\\FlowCAD-core\\FlowCAD-core\\ModeController.cs",
               "RelativeToolTip": "FlowCAD-core\\ModeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-19T11:34:56.827Z"
             },
@@ -173,9 +174,9 @@
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "ModeFMKNA.cs",
-              "DocumentMoniker": "C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\FlowCAD-core\\FlowCAD-core\\ModeFMKNA.cs",
+              "DocumentMoniker": "C:\\Users\\Baver\\Desktop\\FlowCAD\\FlowCAD-core\\FlowCAD-core\\ModeFMKNA.cs",
               "RelativeDocumentMoniker": "FlowCAD-core\\ModeFMKNA.cs",
-              "ToolTip": "C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\FlowCAD-core\\FlowCAD-core\\ModeFMKNA.cs",
+              "ToolTip": "C:\\Users\\Baver\\Desktop\\FlowCAD\\FlowCAD-core\\FlowCAD-core\\ModeFMKNA.cs",
               "RelativeToolTip": "FlowCAD-core\\ModeFMKNA.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -183,49 +184,51 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "ModeKKY.cs",
-              "DocumentMoniker": "C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\FlowCAD-core\\FlowCAD-core\\ModeKKY.cs",
+              "DocumentMoniker": "C:\\Users\\Baver\\Desktop\\FlowCAD\\FlowCAD-core\\FlowCAD-core\\ModeKKY.cs",
               "RelativeDocumentMoniker": "FlowCAD-core\\ModeKKY.cs",
-              "ToolTip": "C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\FlowCAD-core\\FlowCAD-core\\ModeKKY.cs",
+              "ToolTip": "C:\\Users\\Baver\\Desktop\\FlowCAD\\FlowCAD-core\\FlowCAD-core\\ModeKKY.cs",
               "RelativeToolTip": "FlowCAD-core\\ModeKKY.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAIA0wBwAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-06T11:03:38.503Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "ModeMB.cs",
-              "DocumentMoniker": "C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\FlowCAD-core\\FlowCAD-core\\ModeMB.cs",
+              "DocumentMoniker": "C:\\Users\\Baver\\Desktop\\FlowCAD\\FlowCAD-core\\FlowCAD-core\\ModeMB.cs",
               "RelativeDocumentMoniker": "FlowCAD-core\\ModeMB.cs",
-              "ToolTip": "C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\FlowCAD-core\\FlowCAD-core\\ModeMB.cs",
+              "ToolTip": "C:\\Users\\Baver\\Desktop\\FlowCAD\\FlowCAD-core\\FlowCAD-core\\ModeMB.cs",
               "RelativeToolTip": "FlowCAD-core\\ModeMB.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAywNMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAL0AAAAAAAAAAAApwLAAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T11:01:57.174Z"
+              "WhenOpened": "2025-02-06T11:01:57.174Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 3,
               "Title": "Mode.cs",
-              "DocumentMoniker": "C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\FlowCAD-core\\FlowCAD-core\\Mode.cs",
+              "DocumentMoniker": "C:\\Users\\Baver\\Desktop\\FlowCAD\\FlowCAD-core\\FlowCAD-core\\Mode.cs",
               "RelativeDocumentMoniker": "FlowCAD-core\\Mode.cs",
-              "ToolTip": "C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\FlowCAD-core\\FlowCAD-core\\Mode.cs",
+              "ToolTip": "C:\\Users\\Baver\\Desktop\\FlowCAD\\FlowCAD-core\\FlowCAD-core\\Mode.cs",
               "RelativeToolTip": "FlowCAD-core\\Mode.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T14:06:41.897Z"
+              "WhenOpened": "2025-02-06T14:06:41.897Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 5,
               "Title": "Utils.cs",
-              "DocumentMoniker": "C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\FlowCAD-core\\FlowCAD-core\\Utils.cs",
+              "DocumentMoniker": "C:\\Users\\Baver\\Desktop\\FlowCAD\\FlowCAD-core\\FlowCAD-core\\Utils.cs",
               "RelativeDocumentMoniker": "FlowCAD-core\\Utils.cs",
-              "ToolTip": "C:\\Users\\Baver\\Desktop\\FlowCAD-sources\\FlowCAD-sourcecode\\FlowCAD-core\\FlowCAD-core\\Utils.cs",
+              "ToolTip": "C:\\Users\\Baver\\Desktop\\FlowCAD\\FlowCAD-core\\FlowCAD-core\\Utils.cs",
               "RelativeToolTip": "FlowCAD-core\\Utils.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAIAwwBwAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-14T08:29:08.134Z"
             }

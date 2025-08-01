@@ -60,7 +60,7 @@ namespace FlowCAD_core
                     trimmedStart,
                     trimmedEnd,
                     midpoint,
-                    $"L = {distance:F2}m \n \\U+2205 200 B.B.",
+                    $"L = {distance:F2}m \n \\U+2205 300 B.B.",
                     ObjectId.Null
                 );
 
@@ -337,7 +337,9 @@ namespace FlowCAD_core
             {
                 if (circle == sourceCircle)
                     continue;
-                double distance = circle.Center.DistanceTo(sourceCircle.Center);
+                double distance = new Point2d(circle.Center.X, circle.Center.Y)
+                      .GetDistanceTo(new Point2d(sourceCircle.Center.X, sourceCircle.Center.Y));
+
                 if (distance < minDistance)
                 {
                     minDistance = distance;
@@ -365,8 +367,11 @@ namespace FlowCAD_core
                 }
             }
 
+            double distance2 = new Point2d(sourceCircle.Center.X, sourceCircle.Center.Y)
+                      .GetDistanceTo(new Point2d(sourceCircle.Center.X, sourceCircle.Center.Y));
 
-            if (sourceCircle.Center.DistanceTo(nearestCircle.Center) > 50 || isGreatestCircle)
+
+            if (distance2 > 50 || isGreatestCircle)
             {
                 return null;
             }
